@@ -48,6 +48,6 @@ while(1):
 		print("verified")
 		break
 	else:
-		if(error.get_attribute('innerHTML')!=" Invalid Code. Please enter the code as appearing in the Image." and error.get_attribute('innerHTML')!="\n Invalid Code. Please enter the code as appearing in the Image." and error.get_attribute('innerHTML')!="\n Please enter the code as appearing in the Image." and error.get_attribute('innerHTML')!=" Please enter the code as appearing in the Image."):
+		if(error.get_attribute('innerHTML')!=" Invalid Code. Please enter the code   as appearing in the Image." and error.get_attribute('innerHTML')!="\n Invalid Code. Please enter the code as appearing in the Image." and error.get_attribute('innerHTML')!="\n Please enter the code as appearing in the Image." and error.get_attribute('innerHTML')!=" Please enter the code as appearing in the Image."):
 			print(error.get_attribute('innerHTML'))
 			break
