@@ -12,7 +12,7 @@ element = driver.find_element_by_class_name("captchaImgBox")
 element.screenshot('captcha.png') 
 
 def ocr_core(filename):
-    text = pytesseract.image_to_string(Image.open(filename))
-    return text
+    Text = pytesseract.image_to_string(Image.open(filename))
+    return Text
 
 print(ocr_core('captcha.png'))
